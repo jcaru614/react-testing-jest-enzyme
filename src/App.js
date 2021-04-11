@@ -6,8 +6,6 @@ import { connect } from 'react-redux';
 import { BrowserRouter, Link, Route } from 'react-router-dom';
 import * as actions from 'actions'
 
-
-
 class App extends Component {
 
   renderButton = () => {
@@ -37,6 +35,7 @@ class App extends Component {
       </ul>
     )
   }
+  
   render() {
     return (
         <BrowserRouter>
